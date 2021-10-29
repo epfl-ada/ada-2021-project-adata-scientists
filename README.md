@@ -13,6 +13,7 @@ Readme.md file containing the detailed project proposal (up to 1000 words). Your
     
 # Women representaion in the Medias
 
+## Abstract
 During the last 5 years, a lot of feminist movements have emerged, like "PayeTonEPFL" on the campus. This gave us the will to dig deeper into the subject to see if it is general to all fields or specific to science.
  These movements highlighted the difference in representation between genders, especially in the medias. They clamed there were a difference between the occurence of women  and men in the articles, on TV...
  We want to study the evolution of the problem through time, type of media, ages, countries (newspaper origin) and a selection of specific subjects coverd, like economics, finance, science, politics or people, news, publicity... 
