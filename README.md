@@ -11,7 +11,7 @@ Readme.md file containing the detailed project proposal (up to 1000 words). Your
     Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
     
     
--## Women representaion in the Medias
+# Women representaion in the Medias
 
 During the last 5 years, a lot of feminist movements have emerged, like "PayeTonEPFL" on the campus. This gave us the will to dig deeper into the subject to see if it is general to all fields or specific to science.
  These movements highlighted the difference in representation between genders, especially in the medias. They clamed there were a difference between the occurence of women  and men in the articles, on TV...
