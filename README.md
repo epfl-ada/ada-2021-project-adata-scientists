@@ -1,20 +1,32 @@
 Project
 Readme.md file containing the detailed project proposal (up to 1000 words). Your README.md should contain:
 
-    Title
-    Abstract: A 150 word description of the project idea and goals. What’s the motivation behind your project? What story would you like to tell, and why?
-    Research Questions: A list of research questions you would like to address during the project.
-    Proposed additional datasets (if any): List the additional dataset(s) you want to use (if any), and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you’ve read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible.
-    Methods
-    Proposed timeline
-    Organization within the team: A list of internal milestones up until project Milestone 3.
-    Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
-    
-    
 # Women representaion in the Medias
 
 ## Abstract
 During the last 5 years, a lot of feminist movements have emerged, like "PayeTonEPFL" on the campus. This gave us the will to dig deeper into the subject to see if it is general to all fields or specific to science.
- These movements highlighted the difference in representation between genders, especially in the medias. They clamed there were a difference between the occurence of women  and men in the articles, on TV...
- We want to study the evolution of the problem through time, type of media, ages, countries (newspaper origin) and a selection of specific subjects coverd, like economics, finance, science, politics or people, news, publicity... 
- We want to see the evolutions of mentalities "before" and "after" those movements, by comparing the repartition of speak between gender, and see how women are reprsented before and after. We want to compare it with the men representaion evolution through all these years and how they speak about women.
+ These movements highlighted the difference in representation between genders, especially in the medias. They claimed there were a difference between the occurrence of women  and men in the articles, on TV...
+ We want to study the evolution of the problem through time, type of newspaper, ages, countries (newspaper origin) and a selection of specific subjects covered, like economics, finance, science, politics or people, news, publicity... 
+ We want to see the evolution of mentalities "before" and "after" those movements, by comparing the partition of speak between gender, and see how women are represented before and after. We want to compare it with the men representation evolution through all these years and how they speak about women.
+ 
+
+## Research questions
+Are women and men equally represented in the medias? And if it so, are they also equally quoted in all fields? Can we observe changes between 2015 and 2020, because of movements such as #metoo? Who quotes women and who quotes men?
+
+
+## Additional datasets
+We used the parquet to improve our dataset, to increase the information we have about the speaker and we get the general field of activity to group their occupation. We also search for the name and the gender of the author of the article. Moreover, to see where we could have emergence of gates about sexism, we search for the dates of the feminism movements. Finally, we obtain the general topic of the article. 
+
+## Methods
+First, we will compare the proportion of women and men quoted per year. Then we will observe, using the date of the feminist event, whether it has an impact of the portion of women and men quoted or not and what are the subject they cover. For example, when the topic is about sexism, is the speaker more a woman or a man and the gender of the author of the article. We will also retrieve the quotes that spoke of these event and how they represented them though keywords like #metoo, Weinstein, Polanski. We will also find the partition of the speaker through their age between men and women. We will then try to find how women are represented through the quotes and on which basis they are badly represented, if they are seen negatively. We will find the words that are the most associated with words like women using deep learning ? We will also partition the representation of the women and men according to their occupation. 
+
+## Timeline
+We need to group the topic of the article (and thus of the quotes) and the occupation of the speaker more generally to simplify the comparison between men and women. -> Need to specify this
+
+## Useful dates : 
+ October, 15 2017 : Malyssa Milano with #metoo -> Weinstein in US -> find keywords #metoo, Weinstein
+ November 2017 in France #balancetonporc
+ February 28 2017 for the Césars : Polansky awarded for best movie whereas he is accused of raping a girl -> keywords Polansky, Césars
+ May, 22 2018 : Asia Argento at Cannes against Harvey Weinstein
+ mots clé : harcèlement, sexism, rape, discrimination -> taboo ?
+ 
