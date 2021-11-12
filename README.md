@@ -1,16 +1,16 @@
-Project
-Readme.md file containing the detailed project proposal (up to 1000 words). Your README.md should contain:
-
 # Women representaion in the Medias
 
 ## Abstract
-During the last 5 years, a lot of feminist movements have emerged, like "PayeTonEPFL" on the campus. This gave us the will to dig deeper into the subject to see if it is general to all fields or specific to science.
- These movements highlighted the difference in representation between genders, especially in the medias. They claimed there were a difference between the occurrence of women  and men in the articles, on TV...
- We want to study the evolution of the problem through time, type of newspaper, ages, countries (newspaper origin) and a selection of specific subjects covered, like economics, finance, science, politics or people, news, publicity... 
- We want to see the evolution of mentalities "before" and "after" those movements, by comparing the partition of speak between gender, and see how women are represented before and after. We want to compare it with the men representation evolution through all these years and how they speak about women.
- 
+Discriminations against women have been the burning subject for the last 3 to 5 years. Raping scandals like the Weistein gate in 2017, questions about the salary differences lifted by famous Hollywoodien actricess Jennifer Lawrence in 2016, debate about the disappearance of women that are more than 40 in the movies, and the #MeToo scandal paved the way for changes in our society about the women status. In 2019, in Switzerland, the first feminist strike in 40 years took place. They asked for salary equallity, the right to be a mother and to work at the same time, they denonced the marital violences (according to amnesty international, in Switzerland, a women die under the blows of their compagnon  every two weeks) and want a new definition of rape that will protect the women more. 
+Moreover, last year, the sexism is brought to light on the EPFL campus by the #PayeTonEPFL group where thousand of people, and in majority women, testify about time where they felt discriminated. The number of testimony about sexual harassement, raping, and discrimination was appailing. 
+These scandals motivated us to dig deaper into the subject of sexism into the medias. 
+
 
 ## Research questions
+We want to study the evolution of the problem through time, studying different criterias: type of newspaper, ages, and a selection of specific subjects covered like economics, finance, science, politics or people, news... 
+Furthermore, we want to see the evolution of mentalities "before" and "after" those movements, by studying how women are represented before and after. Is it more a representation based on how they look or a representation based on their speech. 
+Finally, one of the aspect we want to study is who is speaking about women. Do women journalist quote more women or is it the men? 
+To conclude, the questions we want to find answers to are:
 Are women and men equally represented in the medias? And if it so, are they also equally quoted in all fields? Can we observe changes between 2015 and 2020, because of movements such as #metoo? Who quotes women and who quotes men?
 
 
@@ -21,12 +21,9 @@ We used the parquet to improve our dataset, to increase the information we have 
 First, we will compare the proportion of women and men quoted per year. Then we will observe, using the date of the feminist events, whether it has an impact of the portion of women and men quoted or not and what are the subject they cover. We have then to group the different quotation by the topic they cover using the article they came from. We can use for that the library newspaper3k to retrieve the text of the article and then LDA to find the topic. For example, when the topic is about sexism, what is the gender more frequent for the speaker of the quotation and the author of the article. To determine the gender of the author, we use a naive Bayes classifier from NLTK that we trained with the additional dataset mentioned above. The approach for finding the author and his/her gender are not completely erro-free as some urls are invalid or restricted, some of the extracted names are not real names, and the classifier isn't optimized, but it allows us to process to large amount of data that we have. We will also retrieve the quotes that spoke of these event and how they represented them through keywords like #metoo, Weinstein, Polanski. We will find the context of the words found and also of the quotation itself through the article. We will also find the partition of the speaker through their age between men and women. We will group the speaker by gender and by age by making intervals and then compare the percentage of presence of the different age group.  We will then try to find how women are represented through the quotes and on which basis they are badly represented, if they are seen negatively. For We will find the words that are the most associated with words like women using deep learning ? We will also partition the representation of the women and men according to their occupation. 
 
 ## Timeline
-We need to group the topic of the article (and thus of the quotes) and the occupation of the speaker more generally to simplify the comparison between men and women. -> Need to specify this
+1) Find the topic of each articles
+2) Group the occupations under a more specific label
+3) Starting of the statistic analysis
+4) Plots of our results
+5) Creation of the website
 
-## Useful dates : 
- October, 15 2017 : Malyssa Milano with #metoo -> Weinstein in US -> find keywords #metoo, Weinstein
- November 2017 in France #balancetonporc
- February 28 2017 for the Césars : Polansky awarded for best movie whereas he is accused of raping a girl -> keywords Polansky, Césars
- May, 22 2018 : Asia Argento at Cannes against Harvey Weinstein
- mots clé : harcèlement, sexism, rape, discrimination -> taboo ?
- 
