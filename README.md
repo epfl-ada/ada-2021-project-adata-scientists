@@ -13,10 +13,15 @@ We used the provided speaker_attributes.parquet file to improve our dataset, to 
 
 ## Methods
 •	First, we will compare the proportion of women and men quoted per year.
+
 •	Then we will observe, using the date of the feminist events, whether it has an impact on the portion of women and men quoted or not and what is the subject they cover. We have then to group the different quotations by the topic they cover using the article they came from. We can use for that the library newspaper3k to retrieve the text of the article and then LDA to find the topic. For example, when the topic is about sexism, what is the gender more frequent for the speaker of the quotation and the author of the article.
+
 •	To determine the gender of the author, we use a naive Bayes classifier from NLTK that we trained with the additional dataset mentioned above. The approach for finding the author and his/her gender is not completely error-free as some URLs are invalid or restricted, some of the extracted names are not real names, and the classifier isn't optimized, but it allows us to process a large amount of data that we have.
+
 •	We will also retrieve the quotes about these events through keywords like #metoo, Weinstein, Polanski. We will find the context of the words found and also of the quotation itself through the article.
+
 •	We will also find the partition of the speaker through their age between men and women. We will group the speaker by gender and by age by making intervals and then compare the percentage of presence of the different age groups.
+
 •	We will finally try to find how women are represented through the quotes and on which basis they are badly represented if they are seen negatively.
 
 
