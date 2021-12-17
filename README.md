@@ -18,7 +18,7 @@ We used the provided speaker_attributes.parquet file to improve our dataset, to 
 
 •	Using the date of the feminist events, we observed whether it has an impact on the portion of women and men quoted or not.
 
-•	We also found the repartition of the speakers according to their age for the two genders. We will group the speaker by gender and by age by making intervals and then compare the percentage of presence of the different age groups.
+•	We also found the repartition of the speakers according to their age for the two genders. We grouped the speakers by gender and by age by making intervals and then compared the percentage of presence of the different age groups.
 
 •	We used [VADER](https://github.com/cjhutto/vaderSentiment) to do the sentiment analysis of the context of the quotes.
 
