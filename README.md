@@ -1,4 +1,3 @@
-<div class=''text-justify''>
 # Women representation in the Media
 
 [Datastory](https://odileandres.github.io)
@@ -41,4 +40,3 @@ We used the provided speaker_attributes.parquet file to improve our dataset, to 
 •	Prunelle:
 
 •	Roxane:
-</div>
