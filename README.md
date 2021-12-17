@@ -22,7 +22,7 @@ We used the provided speaker_attributes.parquet file to improve our dataset, to 
 
 •	We used [VADER](https://github.com/cjhutto/vaderSentiment) to do the sentiment analysis of the context of the quotes.
 
-•	Occupation categories extracted using the “subclass of” attribute of the occupations present in our dataset.
+•	We extracted the occupation categories using the “subclass of” attribute of the occupations present in our dataset.
 
 
 ## Timeline
