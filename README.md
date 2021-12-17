@@ -14,15 +14,17 @@ We studied the evolution of the problem through time, with different criteria: r
 We used the provided speaker_attributes.parquet file to improve our dataset, to increase the information we have about the speaker. We also grouped the different occupations by categories. To this end, we parsed the wiki dumps to extract the categories of the occupations. Moreover, we used the article-centric version of the quotebank dataset to get the (text) context of the quotes. Additionally, to see where we could have the emergence of gates about sexism, we search for the dates of the feminist movements.
 
 ## Methods
-•	First, we compared the proportion of women and men quoted per year with the global number of occurrences and then scaled with the number of speaker. 
+•	First, we compared the proportion of women and men quoted per year with the global number of occurrences and then scaled with the number of speaker.
 
-•	Using the date of the feminist events, we observed whether it has an impact on the portion of women and men quoted or not.
+• We analyzed the representation of men and women belonging to a political party in our dataset. We limited the political parties studied to the ten most present in our dataset (i.e. highest number of members in our dataset).
 
 •	We also found the repartition of the speakers according to their age for the two genders. We grouped the speakers by gender and by age by making intervals and then compared the percentage of presence of the different age groups.
 
 •	We used [VADER](https://github.com/cjhutto/vaderSentiment) to do the sentiment analysis of the context of the quotes.
 
 •	We extracted the occupation categories using the “subclass of” attribute of the occupations present in our dataset.
+
+• We looked at the distributions of occupation categories by age intervals for men and women using heatmaps.
 
 
 ## Timeline
@@ -33,10 +35,10 @@ We used the provided speaker_attributes.parquet file to improve our dataset, to 
 5.	Creation of the website
 
 ## Contributions
-•	Odile:
+•	Odile: website, code for plots, analysis
 
-•	Pablo:
+•	Pablo: occupations and sentiment (extraction), analysis
 
-•	Prunelle:
+•	Prunelle: code for plots, analysis
 
-•	Roxane:
+•	Roxane: website, analysis
